@@ -1,0 +1,58 @@
+INSTRUCTIONS:
+
+
+Using the JSON object in the included js file as data, you must create a dynamic web page that contains the following functions.
+
+Note: If you wish you can use the latest stable version of jQuery or Angular or whatever framework you'd like to showcase your skills.
+
+PLEASE NOTE: You cannot modify, edit or seperate out the json blob in the included js file. Doing this will result in an automatic fail of the tech test.
+
+Your choice of coding style will be considered important with a view to building scalable and maintainable code
+
+
+This test allows us to determine your skill in Javascript.
+We are not just looking for you to solve the problem, we also want to see code quality, design, and educated use of javascript.
+
+
+Your code should operate via the HTTP protocol.
+
+Your HTML markup must meet HTML5 standards.
+
+Your code must be tested on IE10, latest versions of Firefox and Chrome at a minimum.
+
+Your code will also be tested/treated as if near production ready, e.g it must handle HTTP errors gracefully
+
+If you are using SASS or LESS to generate your CSS during development, you should provide the original source file and the compiled CSS - your code must work with the compiled CSS.
+
+Images provided are full size version. When referring to items within the JSON, use any defined heights and widths in the JSON to resize the images. NOTE: if only one size is defined, you resize proportionally.
+
+REQUIREMENTS:
+
+
+a. When loaded the page should show a list view of the items referenced in the JSON, 15 items at a time. Item should list thumbnail, item type and created date (version created)
+
+b. The thumbnails displayed should use the 2nd smallest image referenced for each item in the JSON.  If item is a folder use a default icon
+
+c. Navigation between the "pages" should be done via numeric page indicator (pages: 1 2) or the use of "previous" and "next" links (<<previous | next >>)
+
+d. The list should be sortable by name, type/extension or date (via dropdown or by row header), this resort all items.
+
+e. Each thumbnail should be clickable, and when clicked a modal window should appear, with overlay displaying the following details of each file
+
+	- name
+	- original height
+	- original width
+	- size (if applicable)
+	- geo-coorderinates (if applicable)
+	- any tags (if applicable)
+	- date created
+	- mimeType
+	- if media item is audio or video, view should show the relevant video file ready for playing (file must play).
+	- if media item is audio or video, file length
+	- indicate if item is part of a playlist ('viewUid')
+	
+f. All dates displayed must be human readable.
+
+This modal window must also include a larger version of the image to be displayed.
+
+f. Above the list, the total number of items potentially available in the JSON
